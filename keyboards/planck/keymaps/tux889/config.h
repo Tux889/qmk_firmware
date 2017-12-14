@@ -14,7 +14,7 @@
 #endif
 
 #undef BACKLIGHT_LEVELS
-#define BACKLIGHT_LEVELS 8
+#define BACKLIGHT_LEVELS 4
 
 #define MUSIC_MASK (keycode != KC_NO)
 
