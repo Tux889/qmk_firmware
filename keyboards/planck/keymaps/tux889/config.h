@@ -4,7 +4,7 @@
 #include "../../config.h"
 
 #ifdef AUDIO_ENABLE
-    #define STARTUP_SONG SONG(PLANCK_SOUND)
+    #define STARTUP_SONG SONG(CLOSE_ENCOUNTERS_5_NOTE)
     // #define STARTUP_SONG SONG(NO_SOUND)
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
@@ -12,6 +12,8 @@
                                   SONG(DVORAK_SOUND) \
                                 }
 #endif
+
+#undef BOOTMAGIC_ENABLE
 
 #undef BACKLIGHT_LEVELS
 #define BACKLIGHT_LEVELS 4
