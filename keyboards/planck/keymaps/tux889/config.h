@@ -4,7 +4,7 @@
 #include "../../config.h"
 
 #ifdef AUDIO_ENABLE
-    #define STARTUP_SONG SONG(CLOSE_ENCOUNTERS_5_NOTE)
+    #define STARTUP_SONG SONG(ONE_UP_SOUND)
     // #define STARTUP_SONG SONG(NO_SOUND)
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
@@ -13,12 +13,12 @@
                                 }
 #endif
 
-#undef BOOTMAGIC_ENABLE
+// #undef BOOTMAGIC_ENABLE
 
 #undef BACKLIGHT_LEVELS
 #define BACKLIGHT_LEVELS 4
 
-#define MUSIC_MASK (keycode != KC_NO)
+// #define MUSIC_MASK (keycode != KC_NO)
 
 /*
  * MIDI options
@@ -31,7 +31,7 @@
    - MIDI notes can be sent when in Music mode is on
 */
 
-#define MIDI_BASIC
+// #define MIDI_BASIC
 
 /* enable advanced MIDI features:
    - MIDI notes can be added to the keymap
